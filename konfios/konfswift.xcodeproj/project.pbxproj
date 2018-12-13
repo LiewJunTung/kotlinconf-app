@@ -17,11 +17,10 @@
 		2C6393441F743F2F004953A3 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393431F743F2F004953A3 /* SessionViewController.swift */; };
 		2C6393481F743F73004953A3 /* UiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393471F743F73004953A3 /* UiUtils.swift */; };
 		2C76DBDB2158F0BE009A9557 /* TermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76DBDA2158F0BE009A9557 /* TermsController.swift */; };
-		2CA847C1214BA6F8000A094C /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */; };
-		6F254FB1C8A15F5393A98E9A /* Pods_konfswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */; };
-		78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */; };
+		3A9A65716A26A164A89A73A2 /* Pods_konfswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F750E965F83DB62C0E8D75 /* Pods_konfswiftTests.framework */; };
 		D30D00A8214D087900CD1184 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D00A7214D087900CD1184 /* UI.swift */; };
 		D3B66AE3214E9CF70078D58D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B66AE2214E9CF70078D58D /* BaseView.swift */; };
+		D6B5352C93281606C52AE21B /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59343D3378DDF70937C2A48 /* Pods_konfswift.framework */; };
 		ECEBBE30215D3E02006A5027 /* common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEBBE2F215D3E02006A5027 /* common.framework */; };
 		ECEBBE32215D3EAE006A5027 /* common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ECEBBE31215D3EAE006A5027 /* common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -51,9 +50,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A6189A3C56AE4D6EB873FD3 /* Pods-konfswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswiftTests/Pods-konfswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		20F750E965F83DB62C0E8D75 /* Pods_konfswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_konfswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C024B191F7494B400A7EAEC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_konfswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4F0186213ED71700FCD207 /* Pods_konfswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_konfswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4F018A213ED72700FCD207 /* konfios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = konfios.framework; path = build/konan/bin/xcode/konfios.framework; sourceTree = "<group>"; };
 		2C50FD901F729FE000B3F845 /* konfswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = konfswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50FD931F729FE000B3F845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,14 +68,12 @@
 		2C6393471F743F73004953A3 /* UiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiUtils.swift; sourceTree = "<group>"; };
 		2C63934B1F744CA4004953A3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		2C76DBDA2158F0BE009A9557 /* TermsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsController.swift; sourceTree = "<group>"; };
-		3AD1B286AB3044DE546C83D1 /* Pods-konfswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.debug.xcconfig"; sourceTree = "<group>"; };
-		3F8F328F75A7A47133925362 /* Pods-konfswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswiftTests/Pods-konfswiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_konfswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_konfswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82B39A882B392FCA825017DE /* Pods-konfswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-konfswiftTests/Pods-konfswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A41FE60CFCB7748B63FEC8FD /* Pods-konfswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.release.xcconfig"; sourceTree = "<group>"; };
+		4D3BE6367F845CE7C4416273 /* Pods-konfswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-konfswiftTests/Pods-konfswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		535B934A23296DBC103A36A2 /* Pods-konfswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.release.xcconfig"; sourceTree = "<group>"; };
+		874D1E9217F09C4FD21C61C8 /* Pods-konfswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.debug.xcconfig"; sourceTree = "<group>"; };
 		D30D00A7214D087900CD1184 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		D3B66AE2214E9CF70078D58D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		E59343D3378DDF70937C2A48 /* Pods_konfswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_konfswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEBBE2F215D3E02006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
 		ECEBBE31215D3EAE006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEBBE30215D3E02006A5027 /* common.framework in Frameworks */,
-				2CA847C1214BA6F8000A094C /* Pods_konfswift.framework in Frameworks */,
-				78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */,
+				D6B5352C93281606C52AE21B /* Pods_konfswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F254FB1C8A15F5393A98E9A /* Pods_konfswiftTests.framework in Frameworks */,
+				3A9A65716A26A164A89A73A2 /* Pods_konfswiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,14 +104,12 @@
 			children = (
 				ECEBBE31215D3EAE006A5027 /* common.framework */,
 				2C4F018A213ED72700FCD207 /* konfios.framework */,
-				2C4F0186213ED71700FCD207 /* Pods_konfswiftTests.framework */,
-				2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */,
 				2C63934B1F744CA4004953A3 /* LICENSE.md */,
 				2C50FD921F729FE000B3F845 /* konfswift */,
 				2C50FDAA1F729FE000B3F845 /* konfswiftTests */,
 				2C50FD911F729FE000B3F845 /* Products */,
-				79E372A74DFD6804A955E2D9 /* Pods */,
 				C4FEB15DDCA083DE8665D19F /* Frameworks */,
+				B016187014FED64F8101144C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,13 +174,13 @@
 			path = util;
 			sourceTree = "<group>";
 		};
-		79E372A74DFD6804A955E2D9 /* Pods */ = {
+		B016187014FED64F8101144C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3AD1B286AB3044DE546C83D1 /* Pods-konfswift.debug.xcconfig */,
-				A41FE60CFCB7748B63FEC8FD /* Pods-konfswift.release.xcconfig */,
-				82B39A882B392FCA825017DE /* Pods-konfswiftTests.debug.xcconfig */,
-				3F8F328F75A7A47133925362 /* Pods-konfswiftTests.release.xcconfig */,
+				874D1E9217F09C4FD21C61C8 /* Pods-konfswift.debug.xcconfig */,
+				535B934A23296DBC103A36A2 /* Pods-konfswift.release.xcconfig */,
+				4D3BE6367F845CE7C4416273 /* Pods-konfswiftTests.debug.xcconfig */,
+				0A6189A3C56AE4D6EB873FD3 /* Pods-konfswiftTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -195,8 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				ECEBBE2F215D3E02006A5027 /* common.framework */,
-				650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */,
-				6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */,
+				E59343D3378DDF70937C2A48 /* Pods_konfswift.framework */,
+				20F750E965F83DB62C0E8D75 /* Pods_konfswiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,13 +202,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C50FDB01F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswift" */;
 			buildPhases = (
-				7006F57325EE5C6D0EA1AF0B /* [CP] Check Pods Manifest.lock */,
+				E71D3D87E6E5F15728E3A521 /* [CP] Check Pods Manifest.lock */,
 				B3E81DE6206406DE0098BCD7 /* Compile Kotlin Framework */,
 				2C50FD8C1F729FE000B3F845 /* Sources */,
 				2C50FD8D1F729FE000B3F845 /* Frameworks */,
 				2C50FD8E1F729FE000B3F845 /* Resources */,
-				0C832F21F31C62782FFBD7A2 /* [CP] Embed Pods Frameworks */,
 				2C4F0189213ED71700FCD207 /* Embed Frameworks */,
+				9760B173E50D4F3EE408E005 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C50FDB31F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswiftTests" */;
 			buildPhases = (
-				0C8F18CB4EE392D5D96F28F3 /* [CP] Check Pods Manifest.lock */,
+				D27E825A34212C53B5454525 /* [CP] Check Pods Manifest.lock */,
 				2C50FDA31F729FE000B3F845 /* Sources */,
 				2C50FDA41F729FE000B3F845 /* Frameworks */,
 				2C50FDA51F729FE000B3F845 /* Resources */,
@@ -256,7 +250,7 @@
 				TargetAttributes = {
 					2C50FD8F1F729FE000B3F845 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 29C3V4PUK8;
+						DevelopmentTeam = 7B3HGDD2JS;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -308,7 +302,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C832F21F31C62782FFBD7A2 /* [CP] Embed Pods Frameworks */ = {
+		9760B173E50D4F3EE408E005 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,7 +328,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-konfswift/Pods-konfswift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0C8F18CB4EE392D5D96F28F3 /* [CP] Check Pods Manifest.lock */ = {
+		B3E81DE6206406DE0098BCD7 /* Compile Kotlin Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export JAVA_HOME=`/usr/libexec/java_home -v 1.8`\n\ncase \"$PLATFORM_NAME\" in\niphoneos)\nTARGET=ios_arm64\nTASK=linkDebugFrameworkIos\n;;\niphonesimulator)\nTARGET=ios_x64\nTASK=linkDebugFrameworkIos\n;;\n*)\necho \"Unknown platform: $PLATFORN_NAME\"\nexit 1\n;;\nesac\n\npwd\necho \"$TARGET\"\n\nmkdir -p \"$SRCROOT/build/konan/bin/\"\nrm -rf \"$SRCROOT/build/konan/bin/xcode\"\ncp -r \"$SRCROOT/../common/build/bin/ios/main/debug/framework\" \"$SRCROOT/build/konan/bin/xcode\"\n\ncd ..\n\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../\" \"$TASK\"\n";
+		};
+		D27E825A34212C53B5454525 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,7 +360,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7006F57325EE5C6D0EA1AF0B /* [CP] Check Pods Manifest.lock */ = {
+		E71D3D87E6E5F15728E3A521 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,20 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		B3E81DE6206406DE0098BCD7 /* Compile Kotlin Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Compile Kotlin Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export JAVA_HOME=`/usr/libexec/java_home -v 1.8`\n\ncase \"$PLATFORM_NAME\" in\niphoneos)\nTARGET=ios_arm64\nTASK=linkDebugFrameworkIos\n;;\niphonesimulator)\nTARGET=ios_x64\nTASK=linkDebugFrameworkIos\n;;\n*)\necho \"Unknown platform: $PLATFORN_NAME\"\nexit 1\n;;\nesac\n\npwd\necho \"$TARGET\"\n\nmkdir -p \"$SRCROOT/build/konan/bin/\"\nrm -rf \"$SRCROOT/build/konan/bin/xcode\"\ncp -r \"$SRCROOT/../common/build/bin/ios/main/debug/framework\" \"$SRCROOT/build/konan/bin/xcode\"\n\ncd ..\n\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../\" \"$TASK\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -495,6 +489,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -547,6 +542,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -554,13 +550,13 @@
 		};
 		2C50FDB11F729FE000B3F845 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD1B286AB3044DE546C83D1 /* Pods-konfswift.debug.xcconfig */;
+			baseConfigurationReference = 874D1E9217F09C4FD21C61C8 /* Pods-konfswift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29C3V4PUK8;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -576,7 +572,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = arm64;
 			};
@@ -584,13 +580,13 @@
 		};
 		2C50FDB21F729FE000B3F845 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A41FE60CFCB7748B63FEC8FD /* Pods-konfswift.release.xcconfig */;
+			baseConfigurationReference = 535B934A23296DBC103A36A2 /* Pods-konfswift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29C3V4PUK8;
+				DEVELOPMENT_TEAM = 7B3HGDD2JS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,7 +601,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = arm64;
 			};
@@ -613,7 +609,7 @@
 		};
 		2C50FDB41F729FE000B3F845 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82B39A882B392FCA825017DE /* Pods-konfswiftTests.debug.xcconfig */;
+			baseConfigurationReference = 4D3BE6367F845CE7C4416273 /* Pods-konfswiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -629,7 +625,7 @@
 		};
 		2C50FDB51F729FE000B3F845 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F8F328F75A7A47133925362 /* Pods-konfswiftTests.release.xcconfig */;
+			baseConfigurationReference = 0A6189A3C56AE4D6EB873FD3 /* Pods-konfswiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

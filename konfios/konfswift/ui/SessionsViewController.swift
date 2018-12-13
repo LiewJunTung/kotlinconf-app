@@ -42,7 +42,7 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
         refresher.addTarget(
             self,
             action: #selector(SessionsViewController.refreshSessions(_:)),
-            for: UIControlEvents.valueChanged
+            for: UIControl.Event.valueChanged
         )
 
         return refresher

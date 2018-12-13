@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p>
 
-![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![Swift Version](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/PopupDialog.svg?style=flat)](http://cocoapods.org/pods/PopupDialog)
 [![License](https://img.shields.io/cocoapods/l/PopupDialog.svg?style=flat)](http://cocoapods.org/pods/PopupDialog)
 [![Platform](https://img.shields.io/cocoapods/p/PopupDialog.svg?style=flat)](http://cocoapods.org/pods/PopupDialog)
@@ -37,7 +37,7 @@ Popup Dialog is a simple, customizable popup dialog written in Swift.
 
 # Installation
 
-This version is Swift 4 compatible. For the Swift 3 version, please use [V0.5.4](https://github.com/Orderella/PopupDialog/releases/tag/0.5.4).
+This version is Swift 4.2 compatible. For the Swift 3 version, please use [V0.5.4](https://github.com/Orderella/PopupDialog/releases/tag/0.5.4).
 
 ## CocoaPods
 
@@ -47,7 +47,7 @@ PopupDialog is available through [CocoaPods](http://cocoapods.org). Simply add t
 use_frameworks!
 
 target '<Your Target Name>'
-pod 'PopupDialog', '~> 0.8'
+pod 'PopupDialog', '~> 0.9'
 ```
 
 ## Carthage
@@ -57,7 +57,7 @@ pod 'PopupDialog', '~> 0.8'
 To install, simply add the following lines to your Cartfile:
 
 ```ruby
-github "Orderella/PopupDialog" ~> 0.8
+github "Orderella/PopupDialog" ~> 0.9
 ```
 
 ## Manually
@@ -130,7 +130,7 @@ public convenience init(
 
 The default dialog initializer is a convenient way of creating a popup with image, title and message (see image one and three).
 
-Basically, all parameters are optional, although this makes no sense at all. You want to at least add a message and a single button, otherwise the dialog can't be dismissed, unless you do it manually.
+Bascially, all parameters are optional, although this makes no sense at all. You want to at least add a message and a single button, otherwise the dialog can't be dismissed, unless you do it manually.
 
 If you provide an image it will be pinned to the top/left/right of the dialog. The ratio of the image will be used to set the height of the image view, so no distortion will occur.
 
@@ -244,7 +244,7 @@ dialogAppearance.messageTextAlignment = .center
 
 ## Dialog Container Appearance Settings
 
-The container view contains the PopupDialogDefaultView or your custom view controller. the following appearance settings are available:
+The container view contains the PopupDialogDefaultView or your custom view controller. the following appearence settings are available:
 
 ```swift
 let containerAppearance = PopupDialogContainerView.appearance()
@@ -278,7 +278,7 @@ Setting `liveBlurEnabled` to true, that is enabling realtime updates of the back
 
 ## Button Appearance Settings
 
-The standard button classes available are `DefaultButton`, `CancelButton` and `DestructiveButton`. All buttons feature the same appearance settings and can be styled separately.
+The standard button classes available are `DefaultButton`, `CancelButton` and `DestructiveButton`. All buttons feature the same appearance settings and can be styled seperately.
 
 ```swift
 var buttonAppearance = DefaultButton.appearance()
@@ -446,9 +446,12 @@ Minimum requirement is iOS 9.0. This dialog was written with Swift 4, for suppor
 <p>&nbsp;</p>
 
 # Changelog
+* **0.9.2** Fixes crash when presenting dialog while app is inactive
+* **0.9.1** Fixes Carthage support
+* **0.9.0** Swift 4.2 support
 * **0.8.1** Added shadow appearance properties
 * **0.8.0** Separated tap and pan gesture dismissal
-* **0.7.1** Fixes Objective-C compatibility<br>Improved Carthage handling
+* **0.7.1** Fixes Objective-C compatability<br>Improved Carthage handling
 * **0.7.0** Removed FXBlurView while switching to DynamicBlurView
 * **0.6.2** Added preferredWidth option for iPads
 * **0.6.1** Added shake animation<br>Introduced hideStatusBar option

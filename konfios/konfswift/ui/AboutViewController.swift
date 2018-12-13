@@ -11,7 +11,7 @@ class AboutViewController : UIViewController, MKMapViewDelegate {
         map.delegate = self
 
         let location = CLLocation(latitude: 52.375175, longitude: 4.8938273)
-        map.setRegion(MKCoordinateRegionMakeWithDistance(location.coordinate, 400, 400), animated: false)
+        map.setRegion(MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 400, longitudinalMeters: 400), animated: false)
 
         let confPlace = Place(title: "BEURS VAN BERLAGE", subtitle: "Amsterdam, Netherlands", coordinate: location.coordinate)
                 
